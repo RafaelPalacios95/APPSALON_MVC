@@ -1,0 +1,23 @@
+{
+    "name": "rafael/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP8 MVC SQL SASS",
+    "type": "project",
+    "autoload":{
+        "psr-4":{
+            "MVC\\" : "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Clases\\": "./clases"
+        }
+    },
+   
+    "authors": [
+        {
+            "name": "Rafael"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
